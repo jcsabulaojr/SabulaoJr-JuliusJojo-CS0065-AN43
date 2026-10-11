@@ -1,0 +1,10 @@
+TA2 - RULE-BASED VACUUM AGENT RESULTS
+
+Step | Location Before | Perception | Action | Room A | Room B | Location After
+------------------------------------------------------------------------------------------------------------
+   1 |        A        |   Dirty    | CLEANED Room A                | Clean  | Dirty  |       A       
+   2 |        A        |   Clean    | MOVED from Room A to Room B   | Clean  | Dirty  |       B       
+   3 |        B        |   Dirty    | CLEANED Room B                | Clean  | Clean  |       B       
+   4 |        B        |   Clean    | MOVED from Room B to Room A   | Clean  | Clean  |       A       
+   5 |        A        |   Clean    | MOVED from Room A to Room B   | Clean  | Clean  |       B       
+   6 |        B        |   Clean    | MOVED from Room B to Room A   | Clean  | Clean  |       A       
