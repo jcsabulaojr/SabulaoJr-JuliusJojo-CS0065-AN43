@@ -262,7 +262,14 @@ if estimate_clicked:
             ]
         )
 
-        prediction = model.predict(input_data)[0]
+        prediction = float(model.predict(input_data)[0])
+
+        if prediction < 0:
+            st.warning(
+                "The model could not produce a reliable positive estimate for "
+                "this order. Please request a manual quotation."
+            )
+            st.stop()
 
         st.markdown(
             f"""

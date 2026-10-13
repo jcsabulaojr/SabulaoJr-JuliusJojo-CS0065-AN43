@@ -45,7 +45,7 @@ The system should still provide an estimate, but it should show a warning that t
 
 ### 3. What size of prediction error would still be acceptable for this project?
 
-For this student project, a prediction error of around PHP 500 to PHP 1,000 may still be acceptable because the dataset is synthetic and used for learning purposes. For a real printing business, the acceptable error should be smaller, especially for low-cost print jobs.
+For this prototype, prediction error should be evaluated relative to the total order cost. An error within approximately 10% to 20% may be acceptable for a student demonstration. However, the current model errors are still relatively large, showing that the project would benefit from more records, improved input features, and real printing-shop data. For actual business use, the acceptable error should be considerably smaller.
 
 ## Final Conclusion
 
