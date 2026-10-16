@@ -1,5 +1,7 @@
 # Group 29 Printing Cost Estimation Midterm Project
 
+Video presentation: https://drive.google.com/file/d/1rm95f38hP1kUZcxWv5xSllx6h0grlltQ/view?usp=drive_link
+
 ## Project Overview
 
 This project estimates the total cost of a printing service using predictive regression. The system predicts a numerical output called `estimated_cost` from print job details.
